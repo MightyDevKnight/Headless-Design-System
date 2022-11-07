@@ -1,0 +1,60 @@
+{
+  "tooltip": {
+    "border-radius": {
+      "value": "{semantic.border-radius.feedback}",
+      "type": "borderRadius"
+    },
+    "border-width": {
+      "value": "{semantic.border-width.feedback}",
+      "type": "borderWidth"
+    },
+    "border-color": {
+      "value": "{semantic.color.feedback.neutral.border-color}",
+      "type": "color"
+    },
+    "font-family": {
+      "value": "{semantic.font-family.feedback}",
+      "type": "fontFamilies"
+    },
+    "font-weight": {
+      "value": "{semantic.font-weight.feedback.regular}",
+      "type": "fontWeights"
+    },
+    "font-size": {
+      "value": "{semantic.font-size.feedback.s}",
+      "type": "fontSizes"
+    },
+    "line-height": {
+      "value": "{semantic.line-height.feedback}",
+      "type": "lineHeights"
+    },
+    "text-color": {
+      "value": "{semantic.color.feedback.neutral.background-color}",
+      "type": "color"
+    },
+    "background-color": {
+      "value": "{semantic.color.feedback.neutral.border-color}",
+      "type": "color"
+    },
+    "padding-bottom": {
+      "value": "{semantic.spacing.feedback.padding-bottom}",
+      "type": "spacing"
+    },
+    "padding-top": {
+      "value": "{semantic.spacing.feedback.padding-top}",
+      "type": "spacing"
+    },
+    "padding-right": {
+      "value": "{semantic.spacing.feedback.padding-right}",
+      "type": "spacing"
+    },
+    "padding-left": {
+      "value": "{semantic.spacing.feedback.padding-left}",
+      "type": "spacing"
+    },
+    "shadow": {
+      "value": "{semantic.ui.shadow}",
+      "type": "boxShadow"
+    }
+  }
+}

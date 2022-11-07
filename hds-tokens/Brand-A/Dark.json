@@ -1,0 +1,110 @@
+{
+  "semantic": {
+    "fg": {
+      "default": {
+        "value": "{color.neutrals.white}",
+        "type": "color"
+      },
+      "muted": {
+        "value": "{color.slate.400}",
+        "type": "color"
+      },
+      "subtle": {
+        "value": "{color.slate.300}",
+        "type": "color"
+      },
+      "on-accent": {
+        "value": "{color.slate.700}",
+        "type": "color"
+      },
+      "on-disabled": {
+        "value": "{color.slate.400}",
+        "type": "color"
+      },
+      "disabled": {
+        "value": "{color.slate.300}",
+        "type": "color"
+      },
+      "accent": {
+        "value": "{semantic.primary.default}",
+        "type": "color"
+      }
+    },
+    "bg": {
+      "surface": {
+        "value": "{color.slate.800}",
+        "type": "color"
+      },
+      "muted": {
+        "value": "{color.slate.600}",
+        "type": "color"
+      },
+      "subtle": {
+        "value": "#31425C",
+        "type": "color"
+      },
+      "canvas": {
+        "value": "{color.slate.700}",
+        "type": "color"
+      },
+      "inverse": {
+        "value": "{color.slate.300}",
+        "type": "color"
+      },
+      "gradient": {
+        "value": "linear-gradient(180deg, #31425c 40%, #334155 60%)",
+        "type": "color"
+      }
+    },
+    "color": {
+      "actions": {
+        "primary": {
+          "default": {
+            "text-color": {
+              "value": "{color.zinc.100}",
+              "type": "color"
+            }
+          }
+        }
+      },
+      "inputs": {
+        "checkbox": {
+          "border-color": {
+            "value": "{color.blue.400}",
+            "type": "color"
+          },
+          "background-color": {
+            "value": "{color.neutrals.white}",
+            "type": "color"
+          },
+          "checkmark": {
+            "background-color": {
+              "value": "{color.blue.700}",
+              "type": "color"
+            }
+          }
+        }
+      },
+      "feedback": {
+        "info": {
+          "border-color": {
+            "value": "{color.blue.500}",
+            "type": "color"
+          },
+          "background-color": {
+            "value": "{color.neutrals.white}",
+            "type": "color"
+          },
+          "icon-color": {
+            "value": "{color.blue.700}",
+            "type": "color"
+          },
+          "text-color": {
+            "value": "{color.blue.600}",
+            "type": "color"
+          }
+        }
+      }
+    }
+  }
+}

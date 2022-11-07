@@ -1,0 +1,28 @@
+{
+  "illustration": {
+    "lines": {
+      "value": "hsla({semantic.illustration.base.hue}, 46%, 8%, 1)",
+      "type": "color"
+    },
+    "grad-start": {
+      "value": "hsla({semantic.illustration.base.hue}, 98%, 41%, 1)",
+      "type": "color"
+    },
+    "grad-end": {
+      "value": "hsla({semantic.illustration.base.hue}, 66%,83%,1)",
+      "type": "color"
+    },
+    "bg": {
+      "value": "hsla({semantic.illustration.base.hue}, 77%,95%,1)",
+      "type": "color"
+    },
+    "radial-grad": {
+      "value": "conic-gradient(from 120deg, {illustration.grad-start}, {illustration.grad-end})",
+      "type": "color"
+    },
+    "linear-gradient": {
+      "value": "linear-gradient(120deg, {illustration.grad-start}, {illustration.grad-end})",
+      "type": "color"
+    }
+  }
+}

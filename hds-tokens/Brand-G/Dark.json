@@ -1,0 +1,114 @@
+{
+  "semantic": {
+    "fg": {
+      "default": {
+        "value": "{color.neutrals.white}",
+        "type": "color"
+      },
+      "muted": {
+        "value": "{color.neutrals.white}",
+        "type": "color"
+      },
+      "emphasised": {
+        "value": "{color.neutrals.white}",
+        "type": "color"
+      },
+      "subtle": {
+        "value": "{color.neutrals.white}",
+        "type": "color"
+      }
+    },
+    "bg": {
+      "surface": {
+        "value": "#233654",
+        "type": "color"
+      },
+      "canvas": {
+        "value": "#0E1A2D",
+        "type": "color"
+      },
+      "muted": {
+        "value": "#233654",
+        "type": "color"
+      }
+    },
+    "primary": {
+      "default": {
+        "value": "{color.neutrals.white}",
+        "type": "color"
+      },
+      "emphasised": {
+        "value": "{color.neutrals.transparent}",
+        "type": "color"
+      },
+      "muted": {
+        "value": "{color.neutrals.white}",
+        "type": "color"
+      }
+    },
+    "secondary": {
+      "default": {
+        "value": "{color.neutrals.transparent}",
+        "type": "color"
+      },
+      "emphasised": {
+        "value": "{color.neutrals.transparent}",
+        "type": "color"
+      },
+      "muted": {
+        "value": "{color.neutrals.white}",
+        "type": "color"
+      }
+    },
+    "inputs": {
+      "border": {
+        "default": {
+          "value": "{color.neutrals.white}",
+          "type": "color"
+        }
+      },
+      "background": {
+        "value": "{color.blue.700}",
+        "type": "color"
+      },
+      "text": {
+        "value": "{color.neutrals.white}",
+        "type": "color"
+      }
+    },
+    "color": {
+      "feedback": {
+        "info": {
+          "border-color": {
+            "value": "{color.blue.700}",
+            "type": "color"
+          },
+          "background-color": {
+            "value": "{color.neutrals.white}",
+            "type": "color"
+          },
+          "icon-color": {
+            "value": "{color.blue.700}",
+            "type": "color"
+          },
+          "text-color": {
+            "value": "{color.blue.600}",
+            "type": "color"
+          }
+        }
+      },
+      "status": {
+        "info": {
+          "background-color": {
+            "value": "{color.blue.700}",
+            "type": "color"
+          },
+          "text-color": {
+            "value": "{color.neutrals.white}",
+            "type": "color"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "button": {
+    "cta": {
+      "default": {
+        "container": {
+          "value": {
+            "fill": "{button.cta.default.background-color}",
+            "borderRadius": "{button.border-radius}",
+            "verticalPadding": "{button.s.padding-left}",
+            "horizontalPadding": "{button.m.padding-top}",
+            "border": "{button.cta.default.border-color}",
+            "borderWidth": "{button.border-width}"
+          },
+          "type": "composition"
+        },
+        "label": {
+          "value": {
+            "fill": "{button.cta.default.text-color}",
+            "fontFamilies": "{button.font-family}",
+            "fontSizes": "{button.m.text-size}"
+          },
+          "type": "composition"
+        }
+      },
+      "hover": {
+        "container": {
+          "value": {
+            "fill": "{button.cta.hover.background-color}",
+            "borderRadius": "{button.border-radius}",
+            "verticalPadding": "{button.s.padding-left}",
+            "horizontalPadding": "{button.m.padding-top}",
+            "border": "{button.cta.hover.border-color}",
+            "borderWidth": "{button.border-width}"
+          },
+          "type": "composition"
+        },
+        "label": {
+          "value": {
+            "fill": "{button.cta.hover.text-color}",
+            "fontFamilies": "{button.font-family}",
+            "fontSizes": "{button.m.text-size}"
+          },
+          "type": "composition"
+        }
+      },
+      "active": {
+        "container": {
+          "value": {
+            "fill": "{button.cta.active.background-color}",
+            "borderRadius": "{button.border-radius}",
+            "verticalPadding": "{button.s.padding-left}",
+            "horizontalPadding": "{button.m.padding-top}",
+            "border": "{button.cta.active.border-color}",
+            "borderWidth": "{button.border-width}"
+          },
+          "type": "composition"
+        },
+        "label": {
+          "value": {
+            "fill": "{button.cta.active.text-color}",
+            "fontFamilies": "{button.font-family}",
+            "fontSizes": "{button.m.text-size}"
+          },
+          "type": "composition"
+        }
+      }
+    }
+  },
+  "card": {
+    "container": {
+      "value": {
+        "borderRadius": "{semantic.border-radius.ui-card}",
+        "fill": "{semantic.bg.surface}",
+        "itemSpacing": "{semantic.spacing.ui.s.space-between}",
+        "boxShadow": "{semantic.ui.shadow}"
+      },
+      "type": "composition"
+    },
+    "body": {
+      "value": {
+        "itemSpacing": "{semantic.spacing.ui.s.space-between}",
+        "paddingBottom": "{semantic.spacing.ui.xxl.space-around}",
+        "horizontalPadding": "{semantic.spacing.ui.xxl.space-around}"
+      },
+      "type": "composition"
+    },
+    "font-family": {
+      "value": {
+        "fontFamilies": "{font-family.sans-serif}"
+      },
+      "type": "composition"
+    }
+  }
+}

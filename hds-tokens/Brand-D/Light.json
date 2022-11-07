@@ -1,0 +1,296 @@
+{
+  "font-family": {
+    "serif": {
+      "value": "Satoshi Variable",
+      "type": "fontFamilies"
+    },
+    "sans-serif": {
+      "value": "Roboto",
+      "type": "fontFamilies"
+    },
+    "mono": {
+      "value": "Satoshi Variable",
+      "type": "fontFamilies"
+    }
+  },
+  "font-weight": {
+    "semiBold": {
+      "value": "Bold",
+      "type": "fontWeights",
+      "default": "600"
+    }
+  },
+  "semantic": {
+    "fg": {
+      "default": {
+        "value": "#040507",
+        "type": "color"
+      },
+      "muted": {
+        "value": "{color.slate.500}",
+        "type": "color"
+      },
+      "subtle": {
+        "value": "#CCCFD1",
+        "type": "color"
+      },
+      "on-accent": {
+        "value": "{color.neutrals.white}",
+        "type": "color"
+      },
+      "on-disabled": {
+        "value": "{color.slate.400}",
+        "type": "color"
+      },
+      "disabled": {
+        "value": "{color.slate.300}",
+        "type": "color"
+      },
+      "accent": {
+        "value": "{semantic.primary.default}",
+        "type": "color"
+      }
+    },
+    "bg": {
+      "surface": {
+        "value": "{color.neutrals.white}",
+        "type": "color"
+      },
+      "muted": {
+        "value": "{color.zinc.300}",
+        "type": "color"
+      },
+      "subtle": {
+        "value": "{color.neutrals.white}",
+        "type": "color"
+      },
+      "canvas": {
+        "value": "{color.zinc.100}",
+        "type": "color"
+      },
+      "inverse": {
+        "value": "#0C1A21",
+        "type": "color"
+      },
+      "gradient": {
+        "value": "linear-gradient(180deg, #ffffff 40%, #f4f4f5 60%)",
+        "type": "color"
+      }
+    },
+    "cta": {
+      "default": {
+        "value": "#15c6af",
+        "type": "color"
+      },
+      "emphasised": {
+        "value": "#109482",
+        "type": "color"
+      },
+      "muted": {
+        "value": "#13b49f",
+        "type": "color"
+      },
+      "subtle": {
+        "value": "{color.blue.200}",
+        "type": "color"
+      },
+      "disabled": {
+        "value": "{color.gray.400}",
+        "type": "color"
+      }
+    },
+    "primary": {
+      "default": {
+        "value": "{color.slate.400}",
+        "type": "color"
+      },
+      "emphasised": {
+        "value": "{color.slate.500}",
+        "type": "color"
+      },
+      "muted": {
+        "value": "{color.slate.300}",
+        "type": "color"
+      },
+      "subtle": {
+        "value": "{color.slate.200}",
+        "type": "color"
+      },
+      "disabled": {
+        "value": "{color.gray.400}",
+        "type": "color"
+      }
+    },
+    "secondary": {
+      "default": {
+        "value": "{color.slate.400}",
+        "type": "color"
+      },
+      "emphasised": {
+        "value": "{color.neutrals.transparent}",
+        "type": "color"
+      },
+      "muted": {
+        "value": "{color.slate.500}",
+        "type": "color"
+      },
+      "subtle": {
+        "value": "{color.slate.200}",
+        "type": "color"
+      },
+      "disabled": {
+        "value": "{color.gray.400}",
+        "type": "color"
+      }
+    },
+    "ui": {
+      "border-radius": {
+        "value": "100",
+        "type": "borderRadius"
+      },
+      "shadow": {
+        "value": {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "0",
+          "color": "#000000",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      }
+    },
+    "inputs": {
+      "background": {
+        "value": "{semantic.bg.muted}",
+        "type": "color"
+      }
+    },
+    "border-radius": {
+      "actions": {
+        "value": "{border-radius.5}",
+        "type": "borderRadius"
+      },
+      "inputs": {
+        "value": "6",
+        "type": "borderRadius"
+      },
+      "ui-card": {
+        "value": "10",
+        "type": "borderRadius"
+      },
+      "ui": {
+        "value": "{border-radius.9}",
+        "type": "borderRadius"
+      }
+    },
+    "border-width": {
+      "actions": {
+        "value": "{border-width.2}",
+        "type": "borderWidth"
+      },
+      "inputs": {
+        "value": "{border-width.2}",
+        "type": "borderWidth"
+      }
+    },
+    "color": {
+      "actions": {
+        "primary": {
+          "default": {
+            "text-color": {
+              "value": "{color.gray.600}",
+              "type": "color"
+            }
+          }
+        }
+      },
+      "inputs": {
+        "checkbox": {
+          "border-color": {
+            "value": "{semantic.primary.emphasised}",
+            "type": "color"
+          },
+          "background-color": {
+            "value": "{color.neutrals.white}",
+            "type": "color"
+          },
+          "checkmark": {
+            "background-color": {
+              "value": "{color.slate.600}",
+              "type": "color"
+            }
+          }
+        }
+      }
+    },
+    "font-size": {
+      "typography": {
+        "heading": {
+          "d-1": {
+            "value": "{font-size.28}",
+            "type": "fontSizes"
+          }
+        }
+      }
+    },
+    "status": {
+      "text-color": {
+        "value": "{color.neutrals.white}",
+        "type": "color"
+      },
+      "info": {
+        "background-color": {
+          "value": "{color.blue.500}",
+          "type": "color"
+        }
+      },
+      "success": {
+        "background-color": {
+          "value": "{color.emerald.400}",
+          "type": "color"
+        }
+      }
+    },
+    "illustration": {
+      "base": {
+        "hue": {
+          "value": "176",
+          "type": "color"
+        }
+      }
+    }
+  },
+  "checkbox": {
+    "border-radius": {
+      "value": "{border-radius.4}",
+      "type": "borderRadius"
+    },
+    "border-width": {
+      "value": "{border-width.1}",
+      "type": "borderWidth"
+    },
+    "label": {
+      "font-size": {
+        "value": "{font-size.2}",
+        "type": "fontSizes"
+      }
+    },
+    "width": {
+      "value": "{size.150}",
+      "type": "sizing"
+    },
+    "height": {
+      "value": "{size.150}",
+      "type": "sizing"
+    }
+  },
+  "text-field": {
+    "l": {
+      "font-size": {
+        "value": "{font-size.2}",
+        "type": "fontSizes"
+      }
+    }
+  }
+}

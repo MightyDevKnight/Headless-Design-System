@@ -1,0 +1,98 @@
+{
+  "semantic": {
+    "ui": {
+      "border-radius": {
+        "value": "{border-radius.5}",
+        "type": "borderRadius"
+      }
+    },
+    "border-radius": {
+      "ui-card": {
+        "value": "{border-radius.4}",
+        "type": "borderRadius"
+      },
+      "actions": {
+        "value": "{border-radius.4}",
+        "type": "borderRadius"
+      }
+    },
+    "border-width": {
+      "ui-card": {
+        "value": "{border-width.3}",
+        "type": "borderWidth"
+      },
+      "actions": {
+        "value": "{border-width.1}",
+        "type": "borderWidth"
+      }
+    },
+    "spacing": {
+      "ui": {
+        "xs": {
+          "space-between": {
+            "value": "{space.100}",
+            "type": "spacing"
+          }
+        }
+      }
+    },
+    "fg": {
+      "default": {
+        "value": "#211EA6",
+        "type": "color"
+      },
+      "muted": {
+        "value": "#353BD4",
+        "type": "color"
+      }
+    },
+    "bg": {
+      "surface": {
+        "value": "{color.neutrals.transparent}",
+        "type": "color"
+      },
+      "canvas": {
+        "value": "{color.neutrals.white}",
+        "type": "color"
+      }
+    },
+    "primary": {
+      "default": {
+        "value": "{color.neutrals.transparent}",
+        "type": "color"
+      },
+      "emphasised": {
+        "value": "#211EA6",
+        "type": "color"
+      },
+      "muted": {
+        "value": "#211EA6",
+        "type": "color"
+      }
+    },
+    "secondary": {
+      "default": {
+        "value": "{color.neutrals.transparent}",
+        "type": "color"
+      },
+      "emphasised": {
+        "value": "#211EA6",
+        "type": "color"
+      }
+    }
+  },
+  "font-weight": {
+    "regular": {
+      "value": "{body.font-weight}",
+      "type": "fontWeights"
+    },
+    "semiBold": {
+      "value": "{heading.semibold.font-weight}",
+      "type": "fontWeights"
+    },
+    "light": {
+      "value": "{heading.light.font-weight}",
+      "type": "fontWeights"
+    }
+  }
+}

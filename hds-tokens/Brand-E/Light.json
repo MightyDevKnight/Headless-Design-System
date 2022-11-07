@@ -1,0 +1,214 @@
+{
+  "font-family": {
+    "sans-serif": {
+      "value": "Open Sans",
+      "type": "fontFamilies"
+    }
+  },
+  "font-weight": {
+    "semiBold": {
+      "value": "Bold",
+      "type": "fontWeights",
+      "default": "600"
+    }
+  },
+  "semantic": {
+    "fg": {
+      "default": {
+        "value": "{color.slate.700}",
+        "type": "color"
+      },
+      "muted": {
+        "value": "{color.slate.500}",
+        "type": "color"
+      },
+      "subtle": {
+        "value": "{color.slate.500}",
+        "type": "color"
+      },
+      "on-accent": {
+        "value": "{color.slate.700}",
+        "type": "color"
+      },
+      "on-disabled": {
+        "value": "{color.amber.500}",
+        "type": "color"
+      }
+    },
+    "bg": {
+      "surface": {
+        "value": "{color.neutrals.white}",
+        "type": "color"
+      },
+      "canvas": {
+        "value": "{color.slate.50}",
+        "type": "color"
+      },
+      "subtle": {
+        "value": "{color.neutrals.transparent}",
+        "type": "color"
+      }
+    },
+    "primary": {
+      "default": {
+        "value": "{color.amber.600}",
+        "type": "color"
+      },
+      "emphasised": {
+        "value": "{color.amber.500}",
+        "type": "color"
+      },
+      "muted": {
+        "value": "{color.neutrals.white}",
+        "type": "color"
+      }
+    },
+    "ui": {
+      "border-radius": {
+        "value": "{border-radius.4}",
+        "type": "borderRadius"
+      },
+      "shadow": {
+        "value": {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "0",
+          "color": "#000000",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      }
+    },
+    "border-radius": {
+      "actions": {
+        "value": "{border-radius.4}",
+        "type": "borderRadius"
+      },
+      "inputs": {
+        "value": "{border-radius.2}",
+        "type": "borderRadius"
+      },
+      "ui-card": {
+        "value": "{border-radius.4}",
+        "type": "borderRadius"
+      },
+      "status": {
+        "value": "{border-radius.4}",
+        "type": "borderRadius"
+      }
+    },
+    "border-width": {
+      "actions": {
+        "value": "{border-width.2}",
+        "type": "borderWidth"
+      },
+      "inputs": {
+        "value": "{border-width.1}",
+        "type": "borderWidth"
+      },
+      "ui-card": {
+        "value": "{border-width.2}",
+        "type": "borderWidth"
+      },
+      "ui": {
+        "value": "{border-width.1}",
+        "type": "borderWidth"
+      }
+    },
+    "secondary": {
+      "default": {
+        "value": "{color.slate.500}",
+        "type": "color"
+      },
+      "emphasised": {
+        "value": "{color.neutrals.transparent}",
+        "type": "color"
+      },
+      "muted": {
+        "value": "{color.slate.400}",
+        "type": "color"
+      }
+    },
+    "color": {
+      "actions": {
+        "secondary": {
+          "active": {
+            "background-color": {
+              "value": "{color.amber.600}",
+              "type": "color"
+            },
+            "text-color": {
+              "value": "{color.neutrals.white}",
+              "type": "color"
+            }
+          }
+        }
+      },
+      "inputs": {
+        "checkbox": {
+          "border-color": {
+            "value": "{color.slate.500}",
+            "type": "color"
+          },
+          "background-color": {
+            "value": "{color.neutrals.white}",
+            "type": "color"
+          },
+          "checkmark": {
+            "background-color": {
+              "value": "{color.slate.700}",
+              "type": "color"
+            }
+          }
+        }
+      },
+      "status": {
+        "text-color": {
+          "value": "{color.neutrals.white}",
+          "type": "color"
+        },
+        "info": {
+          "background-color": {
+            "value": "{color.blue.500}",
+            "type": "color"
+          }
+        },
+        "success": {
+          "background-color": {
+            "value": "{color.emerald.400}",
+            "type": "color"
+          }
+        }
+      }
+    },
+    "spacing": {
+      "ui": {
+        "xs": {
+          "space-between": {
+            "value": "{space.200}",
+            "type": "spacing"
+          }
+        },
+        "s": {
+          "space-between": {
+            "value": "{space.300}",
+            "type": "spacing"
+          }
+        },
+        "m": {
+          "space-between": {
+            "value": "{space.400}",
+            "type": "spacing"
+          }
+        },
+        "xxl": {
+          "space-around": {
+            "value": "{space.400}",
+            "type": "spacing"
+          }
+        }
+      }
+    }
+  }
+}

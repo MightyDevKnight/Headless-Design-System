@@ -1,0 +1,100 @@
+{
+  "semantic": {
+    "fg": {
+      "default": {
+        "value": "{color.amber.500}",
+        "type": "color"
+      },
+      "muted": {
+        "value": "{color.amber.50}",
+        "type": "color"
+      },
+      "subtle": {
+        "value": "{color.amber.200}",
+        "type": "color"
+      },
+      "on-accent": {
+        "value": "{color.amber.400}",
+        "type": "color"
+      }
+    },
+    "bg": {
+      "surface": {
+        "value": "#222222",
+        "type": "color"
+      },
+      "canvas": {
+        "value": "{color.neutrals.black}",
+        "type": "color"
+      }
+    },
+    "primary": {
+      "default": {
+        "value": "{color.amber.600}",
+        "type": "color"
+      },
+      "emphasised": {
+        "value": "{color.amber.500}",
+        "type": "color"
+      },
+      "muted": {
+        "value": "{color.neutrals.white}",
+        "type": "color"
+      }
+    },
+    "secondary": {
+      "default": {
+        "value": "{color.neutrals.white}",
+        "type": "color"
+      },
+      "emphasised": {
+        "value": "{color.neutrals.transparent}",
+        "type": "color"
+      },
+      "muted": {
+        "value": "{color.slate.400}",
+        "type": "color"
+      }
+    },
+    "color": {
+      "inputs": {
+        "checkbox": {
+          "border-color": {
+            "value": "{color.amber.500}",
+            "type": "color"
+          },
+          "background-color": {
+            "value": "{color.neutrals.white}",
+            "type": "color"
+          },
+          "checkmark": {
+            "background-color": {
+              "value": "{color.amber.500}",
+              "type": "color"
+            }
+          }
+        }
+      },
+      "feedback": {
+        "info": {
+          "border-color": {
+            "value": "{color.blue.500}",
+            "type": "color"
+          },
+          "background-color": {
+            "value": "{color.neutrals.white}",
+            "type": "color"
+          },
+          "icon-color": {
+            "value": "{color.blue.700}",
+            "type": "color"
+          },
+          "text-color": {
+            "value": "{color.blue.600}",
+            "type": "color"
+          }
+        }
+      }
+    }
+  }
+}

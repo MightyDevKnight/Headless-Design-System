@@ -1,0 +1,40 @@
+{
+  "semantic": {
+    "fg": {
+      "default": {
+        "value": "{color.neutrals.white}",
+        "type": "color"
+      },
+      "muted": {
+        "value": "{color.neutrals.white}",
+        "type": "color"
+      }
+    },
+    "bg": {
+      "canvas": {
+        "value": "linear-gradient(0deg, #000000 0%, #211EA6 93%)",
+        "type": "color"
+      }
+    },
+    "primary": {
+      "emphasised": {
+        "value": "#0A095A",
+        "type": "color"
+      },
+      "default": {
+        "value": "#2826CF",
+        "type": "color"
+      },
+      "muted": {
+        "value": "{color.neutrals.white}",
+        "type": "color"
+      }
+    },
+    "secondary": {
+      "emphasised": {
+        "value": "{color.neutrals.white}",
+        "type": "color"
+      }
+    }
+  }
+}
